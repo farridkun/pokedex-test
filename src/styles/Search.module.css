@@ -56,3 +56,40 @@
   color: #fff;
   transition: all 0.3s ease;
 }
+
+.searchResults {
+  position: absolute;
+  height: 14rem;
+  width: 37rem;
+  top: 12%;
+  left: 50%;
+  overflow: auto;
+  transform: translateX(-50%);
+  z-index: 5;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-results::-webkit-scrollbar {
+  width: 0;
+}
+
+.pokemonName {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.pokemonName:hover {
+  background-color: #f0f0f0;
+  color: #7263f3;
+}
