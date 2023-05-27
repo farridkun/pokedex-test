@@ -1,3 +1,4 @@
+import ListCardPokemon from '@/Components/ListCardPokemon'
 import Search from '@/Components/Search'
 import Head from 'next/head'
 
@@ -13,7 +14,7 @@ export default function Home() {
       <main>
         <Search />
 
-        {/* Main Content // List of Pokemon */}
+        <ListCardPokemon />
       </main>
     </>
   )
