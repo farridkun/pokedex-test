@@ -1,3 +1,4 @@
+import Search from '@/Components/Search'
 import Head from 'next/head'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* Head Navigator // Search Bar */}
+        <Search />
 
         {/* Main Content // List of Pokemon */}
       </main>
