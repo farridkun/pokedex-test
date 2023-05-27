@@ -1,0 +1,17 @@
+export const pokemonColors = [
+  "#f8d5a3",
+  "#f5b7b1",
+  "#c39bd3",
+  "#aed6f1",
+  "#a3e4d7",
+  "#f9e79f",
+  "#fadbd8",
+  "#d2b4de",
+  "#a9cce3",
+  "#a2d9ce",
+  "#f7dc6f",
+  "#f5cba7",
+  "#bb8fce",
+  "#85c1e9",
+  "#76d7c4",
+];
