@@ -11,7 +11,7 @@ import { reducer } from "./reducer";
 const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
-  const baseUrl = "https://pokeapi.co/api/v2/";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
 
   const intitialState = {
     allPokemon: [],
