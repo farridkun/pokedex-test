@@ -2,13 +2,14 @@ import React from 'react'
 import styles from '@/styles/ListCardPokemon.module.css'
 import { useGlobalContext } from '@/context/global'
 import Router from 'next/router'
+import { Loading } from './Loading'
 
 function ListCardPokemon() {
-  const { allPokemonData } = useGlobalContext()
+  const { allPokemonData, loading } = useGlobalContext()
 
   return (
     <div className={styles.allPokemon}>
-      {allPokemonData ? (
+      {!loading ? (
         allPokemonData.map((pokemon) => {
           return (
             <div
@@ -32,7 +33,7 @@ function ListCardPokemon() {
           );
         })
       ) : (
-        <h1>Loading...</h1>
+        <Loading count={6} height={320} width={320} />
       )}
     </div>
   )

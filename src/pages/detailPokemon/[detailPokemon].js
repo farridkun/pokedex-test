@@ -4,6 +4,7 @@ import { useGlobalContext } from "@/context/global";
 import { randomColor } from "@/utils/Helpers";
 import { pokemonColors } from "@/utils/Constant";
 import { useRouter } from "next/router";
+import { Loading } from "@/Components/Loading";
 
 function DetailPokemon() {
   const router = useRouter()
@@ -86,7 +87,7 @@ function DetailPokemon() {
         )
       ) : (
         <div className="loader">
-          <h1>Loading...</h1>
+          <Loading count={1} height={800} width={600} />
         </div>
       )}
     </div>
