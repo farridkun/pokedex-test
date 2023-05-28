@@ -6,7 +6,7 @@ Search and show details of Pokemon with main feature search pokemon by name.
 - [NextJS](https://nextjs.org/)
 - [PokeAPI](https://pokeapi.co/)
 - [Vercel](https://vercel.com/)
-- [ReactSkeleton][https://github.com/dvtng/react-loading-skeleton#readme]
+- [ReactSkeleton](https://github.com/dvtng/react-loading-skeleton#readme)
 
 ### What's inside?
 | Main Feature |
